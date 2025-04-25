@@ -1,0 +1,10 @@
+# Comandos utilizados nos itens 3, 4 e 5
+
+# 3. Tornar o script executável
+chmod u+x calculadora.sh
+
+# 4. Alterar as permissões para: dono com escrita, outros com leitura
+chmod u+w,go=r calculadora.sh
+
+# 5. Executar o script
+./calculadora.sh
